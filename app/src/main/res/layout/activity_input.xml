@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="philip.com.wordmeetsdaum.InputActivity">
+
+    <EditText
+        android:id="@+id/edittext_input"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top" />
+
+    <CheckBox
+        android:id="@+id/checkbox_my"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_my" />
+
+    <Button
+        android:id="@+id/button_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_insert" />
+
+</LinearLayout>
